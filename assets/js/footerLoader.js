@@ -1,5 +1,5 @@
 function loadFooter() {
-  fetch('/components/footer.html')
+  fetch('/cte.khandwa/components/footer.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('footer-container').innerHTML = data;

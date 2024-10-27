@@ -1,5 +1,5 @@
 function loadHeader() {
-  fetch('/components/header.html')
+  fetch('/cte.khandwa/components/header.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('header-container').innerHTML = data;
