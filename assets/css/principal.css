@@ -1,0 +1,51 @@
+.principal-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.principal-container h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.principal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.principal-photo {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.principal-name h3 {
+  margin: 10px 0 5px;
+  color: #2c3e50;
+}
+
+.principal-name p {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.principal-message {
+  color: #333;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.principal-message p {
+  margin-bottom: 15px;
+}

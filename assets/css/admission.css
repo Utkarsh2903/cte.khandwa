@@ -1,0 +1,68 @@
+.admission-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admission-container h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 25px 0;
+}
+
+.admission-container h3 {
+  color: #006064;
+  margin-bottom: 15px;
+}
+
+.admission-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admission-table th, .admission-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.admission-table th {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.admission-table td {
+  background-color: #f9f9f9;
+}
+
+.styled-list {
+  list-style-type: none;
+  padding-left: 1.5em; 
+  margin: 0;
+}
+
+.styled-list li {
+  padding-left: 1em;
+  line-height: 1.8;
+  font-size: 1em;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.styled-list li::before {
+  content: "•";
+  font-size: 1.2em;
+  color: #2c3e50;
+  position: absolute;
+  left: 0;
+}
