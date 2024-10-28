@@ -20,7 +20,7 @@
 }
 
 .principal-photo {
-  width: 300px;
+  width: 600px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@
 .principal-message {
   color: #333;
   line-height: 1.6;
-  text-align: left;
+  text-align: justify;
   max-width: 600px;
   margin-top: 20px;
 }

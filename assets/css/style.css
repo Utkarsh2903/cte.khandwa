@@ -46,7 +46,7 @@ header nav ul li a:hover {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  height: 400px;
+  height: 75vh; /* Adjust height to be responsive */
 }
 
 .slideshow .slide {
@@ -58,7 +58,7 @@ header nav ul li a:hover {
 .slideshow img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* This ensures images fill the container without stretching */
 }
 
 .prev,
